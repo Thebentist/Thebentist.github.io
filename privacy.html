@@ -10,22 +10,29 @@
 <main>
 <p class="back"><a href="./">Bentist Automation</a></p>
 <h1>Privacy Policy</h1>
-<p class="meta">Last updated September 29, 2026</p>
+<p class="meta">Last updated September 30, 2026</p>
 
 <p>Bentist Automation is a private tool used only by the owner of The Bentist YouTube channel (Dr. Ben Winters) to manage that channel. It is not offered to the public, and nobody else can sign in to it.</p>
+<p><strong>Bentist Automation uses YouTube API Services.</strong> By using it, users agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of data is described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
 
 <h2>What it accesses</h2>
 <p>When the channel owner signs in with Google, the tool uses <a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">YouTube API Services</a> and Google APIs to:</p>
 <ul>
   <li>read the channel's own videos, titles and descriptions (YouTube Data API);</li>
   <li>read the channel's own analytics and reports, such as views, watch time, impressions and click-through rate (YouTube Analytics API and YouTube Reporting API);</li>
-  <li>change the titles of the channel's own videos, only when the owner has approved the change;</li>
+  <li>read the caption tracks of the channel's own videos, to check that titles and descriptions match what each video says;</li>
+  <li>change the titles and descriptions of the channel's own videos, and in future upload the owner's own videos and set their thumbnails, only as the owner has instructed (see "Consent to changes" below);</li>
   <li>create and update one Google Sheet in the owner's Google Drive that tracks those title tests. It can reach only files it created itself, not the rest of the Drive.</li>
 </ul>
 <p>It does not access other people's accounts, private messages, comments by viewers beyond what YouTube shows publicly, or payment information.</p>
 
-<h2>Where the data is kept</h2>
+<h2>Consent to changes</h2>
+<p>The tool changes nothing on YouTube unless the channel owner has told it to. The owner turns on each kind of change (for example, a title test that alternates two titles, or a rewrite of a set of descriptions) and can veto or stop any of them at any time. Every change is written to a log with the time, the video, and the old and new text, and titles changed by a test are put back or kept according to its result. The tool never changes a video's privacy or visibility.</p>
+
+<h2>Where the data is kept, and for how long</h2>
 <p>Data is stored on the channel owner's own computer and in the owner's own Google Sheet. Sign-in tokens are stored only on that computer. Nothing is sold, shared with third parties, or used for advertising.</p>
+<p>YouTube Analytics and Reporting data (such as views, watch time and impressions) is kept to compare videos over time. Other YouTube data, such as caption text and copies of video titles and descriptions, is deleted or refreshed within 30 days. Some figures shown in the owner's Sheet (for example, watch minutes per 1,000 impressions) are calculated by this tool from YouTube data and are labeled as not coming from YouTube.</p>
+<p>The tool does not use cookies and does not store or read information on any viewer's device.</p>
 
 <h2>Google API Services User Data Policy</h2>
 <p>Bentist Automation's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
@@ -34,7 +41,7 @@
 <p>By using this tool, users are agreeing to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h2>Removing access and data</h2>
-<p>Access can be revoked at any time on the Google Account <a href="https://myaccount.google.com/permissions">third-party connections page</a> or the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>. After access is revoked, the tool can no longer read or change anything; data it already saved on the owner's computer or Sheet is deleted on request or within 30 days of the tool being retired.</p>
+<p>Access can be revoked at any time on the Google Account <a href="https://myaccount.google.com/permissions">third-party connections page</a> or the <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>. After access is revoked, the tool can no longer read or change anything; data it saved is deleted within 7 days of access being revoked from within the tool, and within 30 days of access being revoked through Google's security settings page.</p>
 
 <h2>Contact</h2>
 <p>Questions about this policy: <a href="mailto:thebentistofficial@gmail.com">thebentistofficial@gmail.com</a></p>
